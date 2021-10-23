@@ -30,6 +30,10 @@ app.use(publishRoutes);
 const loginRoutes = require("./routes/offers");
 app.use(loginRoutes);
 
+app.get("/", (req, res) => {
+  res.json("WELCOME TO MY VINTED API ! 😎");
+});
+
 //Modeles
 
 const uid2 = require("uid2");
