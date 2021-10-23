@@ -30,7 +30,7 @@ const isAuthenticated = async (req, res, next) => {
 //
 // Route de publication d'une offre
 //
-router.post("/user/offer/publish", isAuthenticated, async (req, res) => {
+router.post("/offer/publish", isAuthenticated, async (req, res) => {
   console.log("route publish");
 
   try {

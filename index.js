@@ -27,8 +27,9 @@ const publishRoutes = require("./routes/users");
 app.use(publishRoutes);
 
 //llalalla
-const loginRoutes = require("./routes/users");
+const loginRoutes = require("./routes/offers");
 app.use(loginRoutes);
+
 //Modeles
 
 const uid2 = require("uid2");
